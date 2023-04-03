@@ -7,6 +7,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: bisque;
+    line-height: 1.3em;
 }
 
 .mainHeader{
@@ -59,5 +60,39 @@ body{
 }
 
 .recipeOne h2{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
+
+.recipeTwo{
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    background-image:url(../img/chicken.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recipeTwo h2{
+    margin-bottom: 10px;
+}
+
+.recipeThree{
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    background-image:url(../img/spagetthi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recipeThree h2{
+    margin-bottom: 10px;
+}
+
+/* Recipe One Page*/
