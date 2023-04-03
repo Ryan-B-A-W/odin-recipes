@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: bisque;
     line-height: 1.3em;
 }
 
@@ -95,4 +94,48 @@ body{
     margin-bottom: 10px;
 }
 
+.recipeIN{
+    display: flex;
+}
+
+.ingrediants h3{
+    margin: 5px 0px;
+}
+
+.ingrediants h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ingrediants{
+    border: 2px solid black;
+    background-color: #d4d4d4;
+    border-radius: 5%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
 /* Recipe One Page*/
+
+.ArticleOne{
+    margin: 30px;
+}
+
+.sArticle{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.sArticle h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.ArticleOne img{
+    max-width: 250px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-right: 15px;
+}
