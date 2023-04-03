@@ -116,23 +116,23 @@ body{
     padding: 20px;
 }
 
-/* Recipe One Page*/
+/* For recipe pages*/
 
-.ArticleOne{
+.Article{
     margin: 30px;
 }
 
-.sArticle{
+.HArticle{
     display: flex;
     margin-bottom: 30px;
-
+    align-items: center;
 }
 
-.sArticle h2{
+.HArticle h2{
     margin-bottom: 5px;
     text-align: center;
 }
-.ArticleOne img{
+.Article img{
     max-width: 250px;
     height: auto;
     border: 2px solid black;
